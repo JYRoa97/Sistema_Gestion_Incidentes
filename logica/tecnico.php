@@ -14,10 +14,39 @@ class tecnico extends persona
         $this->foto = $foto;
         $this->persona($id,$nombre,$apellido,$identificacion,$correo,$clave);
     }
+     function correolibre(){
+        $this->conexion->abrir();
+        $this->conexion->ejecutar($this->tecnicoDAO->correolibre());
+        if ($this->conexion->numFilas()==0){
+            $this->conexion->cerrar();
+            return true;
+        }else{
+            $this->conexion->cerrar();
+            return  false;
+        }
 
-    public function crear(){
+    }
+     function crear(){
         $this->conexion->abrir();
         $this->conexion->ejecutar($this->tecnicoDAO->crear());
         $this->conexion->cerrar();
     }
+
+    /**
+     * @return mixed|string
+     */
+    public function getFoto()
+    {
+        return $this->foto;
+    }
+
+    /**
+     * @param mixed|string $foto
+     */
+    public function setFoto($foto)
+    {
+        $this->foto = $foto;
+        $this->tecnicoDAO->setFoto($foto);
+    }
+    
 }

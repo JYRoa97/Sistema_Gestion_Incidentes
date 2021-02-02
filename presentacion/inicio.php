@@ -13,7 +13,7 @@
         </div>
         <div class="row">
         <!-- Login Form -->
-        <form class="form-signin"  method="post" action="index.php?pid=<?php echo base64_encode("presentacion/validar.php") ?>">
+        <form class="form-signin"  method="post" action="index.php?pid=<?php echo base64_encode("presentacion/validar.php") ?>&sa=true">
             <h1 class="h3 mb-3 font-weight-normal">Sistema de gestion</h1>
             <?php if(isset($_GET['auth'])){?>
                 <div class="alert alert-danger" role="alert">

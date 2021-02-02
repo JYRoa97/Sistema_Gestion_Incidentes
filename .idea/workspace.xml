@@ -19,7 +19,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d057a5e-8876-40d0-a746-0bfe2cb5d035" name="Default Changelist" comment="" />
+    <list default="true" id="1d057a5e-8876-40d0-a746-0bfe2cb5d035" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logica/administrador.php" beforeDir="false" afterPath="$PROJECT_DIR$/logica/administrador.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logica/persona.php" beforeDir="false" afterPath="$PROJECT_DIR$/logica/persona.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logica/tecnico.php" beforeDir="false" afterPath="$PROJECT_DIR$/logica/tecnico.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistencia/administradorDAO.php" beforeDir="false" afterPath="$PROJECT_DIR$/persistencia/administradorDAO.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistencia/tecnicoDAO.php" beforeDir="false" afterPath="$PROJECT_DIR$/persistencia/tecnicoDAO.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentacion/administrador/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/administrador/menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentacion/administrador/seccion.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/administrador/seccion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentacion/administrador/tecnico/crear_tecnico.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentacion/inicio.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/inicio.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentacion/validar.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/validar.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +45,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Proyecto_teleco\presentacion\administrador\crear" />
+    </key>
+  </component>
   <component name="TaskManager">
     <servers />
   </component>
@@ -46,5 +64,23 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="476" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1612283412850">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="476" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1612283412850" />
+    <state x="0" y="66" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1612277151574">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="66" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1612277151574" />
+    <state x="402" y="87" key="NewPhpClassDialog" timestamp="1612276992831">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="402" y="87" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1612276992831" />
+    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1612286081949">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1612286081949" />
   </component>
 </project>

@@ -1,10 +1,13 @@
 <?php
+session_start();
 include "logica/persona.php";
 include "persistencia/administradorDAO.php";
 include "persistencia/tecnicoDAO.php";
+include "persistencia/usuarioDAO.php";
 include "persistencia/Conexion.php";
 include "logica/administrador.php";
 include "logica/tecnico.php";
+include  "logica/usuario.php"
 ?>
 <html>
 <head>
@@ -15,10 +18,11 @@ include "logica/tecnico.php";
 
 
     <?php
-        if (isset($_GET["pid"])){
-            $pid = base64_decode($_GET["pid"]);
+        if ((isset($_SESSION['id']) or isset($_GET['sa']))  and isset($_GET["pid"]) ){
+            $pid = base64_decode($_GET["pid"] );
             include $pid;
         }else{
+            session_destroy ();
             include "presentacion/inicio.php";
         }
     ?>

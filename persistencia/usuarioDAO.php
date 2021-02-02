@@ -1,24 +1,26 @@
 <?php
 
 
-class tecnicoDAO extends persona
+class usuarioDAO extends persona
 {
     private $foto;
-    function tecnicoDAO($foto="", $id="", $nombre="", $apellido="", $identificacion="", $correo="", $clave="")
+    function usuarioDAO($foto="", $id="", $nombre="", $apellido="", $identificacion="", $correo="", $clave="")
     {
         $this->foto = $foto;
         $this->persona($id,$nombre,$apellido,$identificacion,$correo,$clave);
     }
     public function crear(){
         return "INSERT INTO 
-                `tecnico`( `nombre`, `apellido`, `identificacion`, `correo`, `clave`, `foto`) 
+                `usuario`( `nombre`, `apellido`, `identificacion`, `correo`, `clave`, `foto`) 
                     VALUES ('".$this->nombre."','".$this->apellido."','".$this->identificacion."','".$this->correo."',MD5('".$this->clave."'),'".$this->foto."')";
 
     }
     public function correolibre(){
-        return "select * from tecnico where tecnico.correo='".$this->correo ."';";
+        return "select * from usuario where usuario.correo='".$this->correo ."';";
     }
-
+    public function  consultar_todos(){
+        return "Select * from usuario";
+    }
     /**
      * @return mixed|string
      */
@@ -34,5 +36,6 @@ class tecnicoDAO extends persona
     {
         $this->foto = $foto;
     }
+    
     
 }

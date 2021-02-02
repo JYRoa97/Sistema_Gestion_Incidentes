@@ -19,6 +19,7 @@ class persona
         $this->clave=$clave;
 
     }
+    
 
     /**
      * @return mixed|string
