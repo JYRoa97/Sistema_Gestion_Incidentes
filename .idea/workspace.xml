@@ -20,18 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d057a5e-8876-40d0-a746-0bfe2cb5d035" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/formulario.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/estilos.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/estilos.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logica/administrador.php" beforeDir="false" afterPath="$PROJECT_DIR$/logica/administrador.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logica/persona.php" beforeDir="false" afterPath="$PROJECT_DIR$/logica/persona.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logica/tecnico.php" beforeDir="false" afterPath="$PROJECT_DIR$/logica/tecnico.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persistencia/administradorDAO.php" beforeDir="false" afterPath="$PROJECT_DIR$/persistencia/administradorDAO.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persistencia/tecnicoDAO.php" beforeDir="false" afterPath="$PROJECT_DIR$/persistencia/tecnicoDAO.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentacion/administrador/crear/crear.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/administrador/crear/crear.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/presentacion/administrador/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/administrador/menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentacion/administrador/seccion.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/administrador/seccion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentacion/administrador/tecnico/crear_tecnico.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentacion/inicio.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/inicio.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentacion/validar.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/validar.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,17 +37,52 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectId" id="1o1yITsWJP3aQNdasbKnN7FBnv9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\teleco" />
+      <recent name="C:\xampp\htdocs\teleco\css" />
+      <recent name="C:\xampp\htdocs\teleco\js" />
       <recent name="C:\xampp\htdocs\Proyecto_teleco\presentacion\administrador\crear" />
     </key>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d057a5e-8876-40d0-a746-0bfe2cb5d035" name="Default Changelist" comment="" />
+      <created>1612468328396</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612468328396</updated>
+      <workItem from="1612468332625" duration="7711000" />
+    </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -64,23 +95,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="476" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1612283412850">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="476" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1612283412850" />
-    <state x="0" y="66" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1612277151574">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="0" y="66" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1612277151574" />
-    <state x="402" y="87" key="NewPhpClassDialog" timestamp="1612276992831">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="402" y="87" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1612276992831" />
-    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1612286081949">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1612286081949" />
   </component>
 </project>

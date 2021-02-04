@@ -43,6 +43,7 @@ if(isset($_POST['registro'])){
             }else{
                 $error[]="Correo ya registrado";
             }
+
             break;
         case '2':
         $tecnico= new tecnico("","",$nombre,$apellido,$identificacion,$correo,$clave);
@@ -107,60 +108,79 @@ if(isset($_POST['registro'])){
 
 
 ?>
-<div class="container">
-    <div class="row">
-        <div class="col-3"></div>
-        <div class="col-6">
-            <div class="card" style="margin-top: 100px;">
-                <div class="card-header bg-primary text-white text-center py-4">Ingrese informacion de tecnico</div>
-                <div class="card-body">
-                    <form class="border border-light p-5"
-                          enctype="multipart/form-data"
-                          action="index.php?pid=<?php echo base64_encode("presentacion/administrador/crear/crear.php");?>"
-                          method="post" >
-                        <?php
-                        if (!empty($error)) {?>
-                            <div class="alert alert-danger" role="alert"><?php echo $error[0] ?></div>
-                        <?php }?>
 
-                        <input type="text" name="nombre" required id="textInput" class="form-control mb-4"
-                               placeholder="Nombre" value="">
-
-                        <input type="text" name="apellido" required id="textInput" class="form-control mb-4"
-                               placeholder="Apellido" value="">
-
-                        <input type="text" name="identificacion" required id="textInput" class="form-control mb-4"
-                               placeholder="Identificacion" value="">
-
-                        <input type="email" name="correo" required id="textInput" class="form-control mb-4"
-                               placeholder="Correo" value="">
-
-                        <input type="password" name="clave" required id="textInput" class="form-control mb-4"
-                               placeholder="Clave" value="">
-
-                        <input type="password" name="clave" required id="textInput" class="form-control mb-4"
-                               placeholder="Clave" value="">
-
-                        <div class="form-group" >
-                            <label for="exampleFormControlSelect1">Seleccione rol</label>
-                            <select  name="rol" class="form-control" id="exampleFormControlSelect1">
-                                <option value="1">Usuario</option>
-                                <option value="2">Tecnico</option>
-                                <option value="3">Administrador</option>
-                            </select>
+<div class="contenedor-formulario ">
+    <div class="wrap">
+        <form class="formulario"
+              name = "formulario_registro"
+              enctype="multipart/form-data"
+              action="index.php?pid=<?php echo base64_encode("presentacion/administrador/crear/crear.php");?>"
+              method="post" >
+            <?php
+            if (!empty($error)) {?>
+                <div class="alert alert-danger" role="alert"><?php echo $error[0] ?></div>
+            <?php }?>
+            <div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="input-group">
+                                <input type="text" name="nombre"  id="nombre" value="">
+                                <label class="label" for="nombre">Nombre:</label>
+                            </div>
                         </div>
-                        <label>Seleccione una foto</label>
-                        <div class="form-group">
-                            <input type="file" name="foto" class="form-control" placeholder="Foto" required="required">
+                        <div class="col">
+                            <div class="input-group">
+                                <input type="text" name="apellido"  id="apellido" value="">
+                                <label class="label" for="nombre">Apellidos:</label>
+                            </div>
                         </div>
-                        <button type="input" class="btn btn-primary" name="registro"> Crear Material</button>
-
-
-
-                    </form>
+                    </div>
                 </div>
+
+                <div class="input-group">
+                    <input type="text" name="identificacion" id="textInput" value="">
+                    <label class="label" for="nombre">Identificación:</label>
+                </div>
+                <div class="input-group">
+                    <input type="email" name="correo"  id="textInput" value="">
+                    <label class="label" for="nombre">Correo:</label>
+                </div>
+                <div class="input-group">
+                    <input type="password" name="clave" required id="textInput" value="">
+                    <label class="label" for="nombre">Contraseña:</label>
+                </div>
+                <div class="input-group">
+                    <input type="password" name="clave_repetir" required id="textInput1" value="">
+                    <label class="label" for="nombre">Repetir Contraseña:</label>
+                </div>
+
+                <div class="input-group text" >
+                    <label>Roll:</label>
+                    <select name="rol" id="sources" class="custom-select sources" placeholder="Source Type">
+                        <option selected>Seleccione una opción</option>
+                        <option value="1"><h6>Usuario</h6> </option>
+                        <option value="2">Técnico</option>
+                        <option value="3">Administrador</option>
+                    </select>
+
+                </div>
+                <div class="input-group text">
+                    <label>Seleccione una foto</label>
+                    <input type="file" name="foto" class="form-control" placeholder="Foto" required="required">
+                </div>
+                <button type="submit" class="btn btn-primary" name="registro"> Registrar </button>
             </div>
-        </div>
+
+
+
+
+
+
+        </form>
 
     </div>
 </div>
+
+
+
