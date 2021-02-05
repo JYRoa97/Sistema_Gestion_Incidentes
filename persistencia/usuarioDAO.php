@@ -18,6 +18,9 @@ class usuarioDAO extends persona
     public function correolibre(){
         return "select * from usuario where usuario.correo='".$this->correo ."';";
     }
+    public function identificacion_libre(){
+        return "select * from usuario where usuario.identificacion='".$this->identificacion ."';";
+    }
     public function  consultar_todos(){
         return "Select * from usuario";
     }

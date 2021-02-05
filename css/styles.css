@@ -5,10 +5,7 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box; }
 
-body {
-    background: #f2f2f2;
-    font-family: "Roboto";
-    border-top: 30px solid #303F9F; }
+
 h6{
     font-family: "Roboto";
 }

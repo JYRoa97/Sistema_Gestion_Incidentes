@@ -36,17 +36,13 @@ h2 {
     margin: 40px 8px 10px 8px;
     color: #cccccc;
 }
-h6{
-    text-align: center;
-    font-size: 16px;
-    font-weight: 600;
-    text-transform: uppercase;
-    display:inline-block;
-    margin: 40px 8px 10px 8px;
-    color: #303F9F;
-}
+
 .btn-primary{
     background-color: #56baed;
+}
+
+a, a:hover{
+    color:#333
 }
 
 /* STRUCTURE */

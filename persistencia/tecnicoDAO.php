@@ -18,6 +18,12 @@ class tecnicoDAO extends persona
     public function correolibre(){
         return "select * from tecnico where tecnico.correo='".$this->correo ."';";
     }
+    public function identificacion_libre(){
+        return "select * from tecnico where tecnico.identificacion='".$this->identificacion ."';";
+    }
+    public function  consultar_todos(){
+        return "Select * from tecnico";
+    }
 
     /**
      * @return mixed|string

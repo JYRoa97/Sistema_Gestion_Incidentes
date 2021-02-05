@@ -42,6 +42,19 @@ class administrador extends persona
         }
 
     }
+
+    public function identificacion_libre(){
+        $this->conexion->abrir();
+        $this->conexion->ejecutar($this->administradorDAO->identificacion_libre());
+        if ($this->conexion->numFilas()==0){
+            $this->conexion->cerrar();
+            return true;
+        }else{
+            $this->conexion->cerrar();
+            return  false;
+        }
+
+    }
     public  function traerid(){
         $this->conexion->abrir();
         $this->conexion->ejecutar($this->administradorDAO->traerid());

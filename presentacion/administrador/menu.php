@@ -11,7 +11,8 @@
                         Crear
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="index.php?pid=<?php echo base64_encode("presentacion/administrador/crear/crear.php")?>">Crear usuarios</a></li>
+                        <li><a class="dropdown-item" href="index.php?pid=<?php echo base64_encode("presentacion/administrador/crear/crear.php")?>">
+                                Registrar</a></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
@@ -19,8 +20,10 @@
                         Consultar
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="index.php?pid=<?php echo base64_encode("presentacion/administrador/consultar/usuarios.php")?>">Usuarios</a></li>
-                        <li><a class="dropdown-item" href="#">Tecnicos</a></li>
+                        <li><a class="dropdown-item" href="index.php?pid=<?php echo base64_encode("presentacion/administrador/consultar/usuarios.php")?>">
+                                Usuarios</a></li>
+                        <li><a class="dropdown-item" href="index.php?pid=<?php echo base64_encode("presentacion/administrador/consultar/tecnicos.php")?>">
+                                Técnicos</a></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown">

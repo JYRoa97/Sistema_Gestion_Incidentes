@@ -26,6 +26,18 @@ class usuario extends persona
         }
 
     }
+    public function identificacion_libre(){
+        $this->conexion->abrir();
+        $this->conexion->ejecutar($this->usuarioDAO->identificacion_libre());
+        if ($this->conexion->numFilas()==0){
+            $this->conexion->cerrar();
+            return true;
+        }else{
+            $this->conexion->cerrar();
+            return  false;
+        }
+    }
+
     public function crear(){
         $this->conexion->abrir();
         $this->conexion->ejecutar($this->usuarioDAO->crear());

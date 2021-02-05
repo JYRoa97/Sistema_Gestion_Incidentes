@@ -1,12 +1,13 @@
 <?php
 include "menu.php";
+
 ?>
 
 <div class="container" style="margin-top: 20px">
     <div class="row">
         <div class="col-12">
             <div class="card">
-                    <?php if(isset($_GET['tipo']) and $_GET['tipo'] == 1){?>
+                    <?php if(isset($_GET['tipo']) and $_GET['tipo'] == 1){echo $_GET['tipo']?>
                     <div class="alert alert-success" role="alert">
                         Se registro con exito al usuario
                     </div>

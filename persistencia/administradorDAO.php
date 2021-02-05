@@ -21,12 +21,18 @@ class administradorDAO extends persona
                 WHERE administrador.correo='".$this->correo."' and administrador.clave=MD5('".$this->clave."')";
 
     }
+
     public function correolibre(){
         return "select * from administrador where administrador.correo='".$this->correo ."';";
     }
+
     public function traerid(){
         return "SELECT administrador.idusuario FROM `administrador` WHERE administrador.correo='".$this->correo."' AND administrador.clave=MD5('".$this->clave."')";
 
+    }
+
+    public function identificacion_libre(){
+        return "select * from administrador where administrador.identificacion='".$this->identificacion ."';";
     }
     /**
      * @return mixed|string

@@ -3,6 +3,8 @@
     var formulario = document.formulario_registro,
         elementos = formulario.elements;
 
+
+
 // Funcion que se ejecuta cuando el evento click es activado
 
     var validarInputs = function(){
@@ -77,6 +79,7 @@ $(".custom-select").each(function() {
     $(this).hide();
     $(this).after(template);
 });
+
 $(".custom-option:first-of-type").hover(function() {
     $(this).parents(".custom-options").addClass("option-hover");
 }, function() {
