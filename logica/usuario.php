@@ -56,6 +56,19 @@ class usuario extends persona
         $this->conexion->cerrar();
         return $resultados;
     }
+    public function consultar(){
+        $this->conexion->abrir();
+        $this->conexion->ejecutar($this->usuarioDAO->consultar());
+        $registro = $this->conexion->extraer();
+        $usuario = new usuario($registro[6], $registro[0], $registro[1], $registro[2], $registro[3], $registro[4],$registro[5]);
+        $this->conexion->cerrar();
+        return $usuario;
+    }
+    public function eliminar(){
+        $this->conexion->abrir();
+        $this->conexion->ejecutar($this->usuarioDAO->eliminar());
+        $this->conexion->cerrar();
+    }
 
     /**
      * @return mixed|string

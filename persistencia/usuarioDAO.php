@@ -24,6 +24,12 @@ class usuarioDAO extends persona
     public function  consultar_todos(){
         return "Select * from usuario";
     }
+    public function consultar(){
+        return "Select * from usuario where usuario.idusuario=".$this->id;
+    }
+    public function eliminar(){
+        return"Delete from usuario where usuario.idusuario=".$this->id;
+    }
     /**
      * @return mixed|string
      */
