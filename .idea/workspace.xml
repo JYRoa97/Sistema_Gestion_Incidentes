@@ -21,35 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1d057a5e-8876-40d0-a746-0bfe2cb5d035" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Images/1612283515345.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Images/1612284182682.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Images/1612284840231.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Images/1612284940768.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Images/1612285023663.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Images/1612296570949.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Images/1612476175416.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Images/1612546646852.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Images/1612558536700.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Images/1612563615763.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Images/1612566597551.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Images/bootstrap-logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Images/home.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Images/operador.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/indexAjax.php" beforeDir="false" afterPath="$PROJECT_DIR$/indexAjax.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logica/administrador.php" beforeDir="false" afterPath="$PROJECT_DIR$/logica/administrador.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logica/tecnico.php" beforeDir="false" afterPath="$PROJECT_DIR$/logica/tecnico.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logica/usuario.php" beforeDir="false" afterPath="$PROJECT_DIR$/logica/usuario.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persistencia/administradorDAO.php" beforeDir="false" afterPath="$PROJECT_DIR$/persistencia/administradorDAO.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persistencia/tecnicoDAO.php" beforeDir="false" afterPath="$PROJECT_DIR$/persistencia/tecnicoDAO.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persistencia/usuarioDAO.php" beforeDir="false" afterPath="$PROJECT_DIR$/persistencia/usuarioDAO.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentacion/administrador/consultar/modalUsuario.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/administrador/consultar/modalUsuario.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentacion/administrador/consultar/tecnicos.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/administrador/consultar/tecnicos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentacion/administrador/consultar/usuarios.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/administrador/consultar/usuarios.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentacion/administrador/crear/crear.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/administrador/crear/crear.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentacion/administrador/editar/usuario.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/administrador/editar/usuario.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentacion/administrador/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/administrador/menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentacion/administrador/seccion.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/administrador/seccion.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/presentacion/validar.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/validar.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +83,7 @@
       <workItem from="1612994486441" duration="9456000" />
       <workItem from="1613074842075" duration="11873000" />
       <workItem from="1613167247683" duration="10555000" />
-      <workItem from="1613487392446" duration="4623000" />
+      <workItem from="1613487392446" duration="5314000" />
     </task>
     <servers />
   </component>
