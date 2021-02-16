@@ -9,6 +9,17 @@ class tecnicoDAO extends persona
         $this->foto = $foto;
         $this->persona($id,$nombre,$apellido,$identificacion,$correo,$clave);
     }
+    public function autenticar(){
+        return "SELECT * FROM 
+                tecnico 
+                WHERE tecnico.correo='".$this->correo."' and tecnico.clave=MD5('".$this->clave."')";
+
+    }
+    public function traerid(){
+        return "SELECT tecnico.idusuario FROM `tecnico` WHERE tecnico.correo='".$this->correo."' AND tecnico.clave=MD5('".$this->clave."')";
+
+    }
+
     public function crear(){
         return "INSERT INTO 
                 `tecnico`( `nombre`, `apellido`, `identificacion`, `correo`, `clave`, `foto`) 
@@ -24,7 +35,28 @@ class tecnicoDAO extends persona
     public function  consultar_todos(){
         return "Select * from tecnico";
     }
+    public function consultar(){
+        return "Select * from tecnico where tecnico.idusuario=".$this->id;
+    }
+    public function eliminar(){
+        return"Delete from tecnico where tecnico.idusuario=".$this->id;
+    }
+    public function  actualizar(){
+        return "UPDATE `tecnico` 
+                SET `idusuario`=".$this->id.",
+                    `nombre`='".$this->nombre."',
+                    `apellido`='".$this->apellido."',
+                    `identificacion`='".$this->identificacion."',
+                    `correo`='".$this->correo."',
+                    `foto`='".$this->foto."' WHERE`idusuario`=".$this->id;
 
+    }
+    public function cambiar_contraseña(){
+        return "UPDATE `tecnico` 
+                SET `idusuario`=".$this->id.",
+                    `clave`=MD5('".$this->clave."')
+                     WHERE`idusuario`=".$this->id;
+    }
     /**
      * @return mixed|string
      */

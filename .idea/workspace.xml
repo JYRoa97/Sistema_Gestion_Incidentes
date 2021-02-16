@@ -20,12 +20,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d057a5e-8876-40d0-a746-0bfe2cb5d035" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/presentacion/administrador/consultar/modalUsuario.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Images/1612283515345.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Images/1612284182682.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Images/1612284840231.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Images/1612284940768.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Images/1612285023663.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Images/1612296570949.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Images/1612476175416.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Images/1612546646852.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Images/1612558536700.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Images/1612563615763.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Images/1612566597551.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Images/bootstrap-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Images/home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Images/operador.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexAjax.php" beforeDir="false" afterPath="$PROJECT_DIR$/indexAjax.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logica/administrador.php" beforeDir="false" afterPath="$PROJECT_DIR$/logica/administrador.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logica/tecnico.php" beforeDir="false" afterPath="$PROJECT_DIR$/logica/tecnico.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logica/usuario.php" beforeDir="false" afterPath="$PROJECT_DIR$/logica/usuario.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistencia/administradorDAO.php" beforeDir="false" afterPath="$PROJECT_DIR$/persistencia/administradorDAO.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistencia/tecnicoDAO.php" beforeDir="false" afterPath="$PROJECT_DIR$/persistencia/tecnicoDAO.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/persistencia/usuarioDAO.php" beforeDir="false" afterPath="$PROJECT_DIR$/persistencia/usuarioDAO.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentacion/administrador/consultar/modalUsuario.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/administrador/consultar/modalUsuario.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentacion/administrador/consultar/tecnicos.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/administrador/consultar/tecnicos.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/presentacion/administrador/consultar/usuarios.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/administrador/consultar/usuarios.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentacion/administrador/crear/crear.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/administrador/crear/crear.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentacion/administrador/editar/usuario.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/administrador/editar/usuario.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentacion/administrador/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/administrador/menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentacion/administrador/seccion.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/administrador/seccion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentacion/validar.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/validar.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +63,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -56,7 +81,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../laragon/www/proyectoFinalUD" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Resources/Images/iconos" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -67,6 +92,9 @@
       <recent name="C:\xampp\htdocs\teleco\presentacion\administrador" />
       <recent name="C:\xampp\htdocs\teleco\css" />
       <recent name="C:\xampp\htdocs\teleco\js" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\teleco\Resources\Images\iconos" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -79,7 +107,12 @@
       <updated>1612468328396</updated>
       <workItem from="1612468332625" duration="8602000" />
       <workItem from="1612538017911" duration="9581000" />
-      <workItem from="1612549742381" duration="16002000" />
+      <workItem from="1612549742381" duration="16576000" />
+      <workItem from="1612906077000" duration="30175000" />
+      <workItem from="1612994486441" duration="9456000" />
+      <workItem from="1613074842075" duration="11873000" />
+      <workItem from="1613167247683" duration="10555000" />
+      <workItem from="1613487392446" duration="4623000" />
     </task>
     <servers />
   </component>
@@ -99,13 +132,25 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1612552645816">
+    <state x="476" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1613183006375">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1612552645816" />
-    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1612565639530">
+    <state x="476" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1613183006375" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1612996351470">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1612565639530" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1612996351470" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1612941168400">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1612941168400" />
+    <state x="489" y="87" key="NewPhpClassDialog" timestamp="1613173852175">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="489" y="87" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1613173852175" />
+    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1613489369246">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1613489369246" />
   </component>
 </project>

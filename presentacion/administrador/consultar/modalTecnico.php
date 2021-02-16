@@ -1,8 +1,8 @@
 <?php
-$usuario= new usuario("",$_GET['id'],"","","","","");
-$usuario=$usuario->consultar();
-$telefonos= new telefono("","",$usuario->getId());
-$telefonos=$telefonos->consultar();
+$tecnico= new tecnico("",$_GET['id'],"","","","","");
+$tecnico=$tecnico->consultar();
+$telefonos= new telefono("","",$tecnico->getId());
+$telefonos=$telefonos->consultar_t_t()
 
 
 ?>
@@ -16,7 +16,7 @@ $telefonos=$telefonos->consultar();
 <div class="modal-body" id="user-info-modal">
     <div class="card-body">
         <div class="d-flex flex-column align-items-center text-center">
-            <img src="Resources/Images/<?php echo $usuario->getFoto()?>" alt=""
+            <img src="Resources/Images/<?php echo $tecnico->getFoto()?>" alt=""
                  class="rounded-circle" width="150">
             <div class="mt-3"><h4></h4>
                 <p class="text-muted font-size-sm"> </p></div>
@@ -30,7 +30,7 @@ $telefonos=$telefonos->consultar();
             </div>
             <div class="col-sm-9 text-secondary">
                 <?php
-                echo $usuario->getNombre() ." ". $usuario->getApellido();
+                echo $tecnico->getNombre() ." ". $tecnico->getApellido();
                 ?>
             </div>
         </div>
@@ -41,7 +41,7 @@ $telefonos=$telefonos->consultar();
             </div>
             <div class="col-sm-9 text-secondary">
                 <?php
-                echo $usuario->getCorreo()
+                echo $tecnico->getCorreo()
                 ?>
 
             </div>
@@ -58,6 +58,7 @@ $telefonos=$telefonos->consultar();
                         echo $telefono->getTelefono()."<br>";
                     }
                     ?>
+
                 </div>
 
             </div>
@@ -70,7 +71,7 @@ $telefonos=$telefonos->consultar();
                 </div>
                 <div class="col-sm-8">
                     <?php
-                        echo $usuario->getIdentificacion();
+                    echo $tecnico->getIdentificacion();
                     ?>
 
                 </div>
@@ -89,7 +90,3 @@ $telefonos=$telefonos->consultar();
     <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
 </div>
 </div>
-
-
-
-

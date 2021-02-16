@@ -61,6 +61,14 @@ class administrador extends persona
         $resultado = $this->conexion->extraer();
         return $resultado[0];
     }
+    public function consultar(){
+        $this->conexion->abrir();
+        $this->conexion->ejecutar($this->administradorDAO->consultar());
+        $registro = $this->conexion->extraer();
+        $administrador = new administrador($registro[6], $registro[0], $registro[1], $registro[2], $registro[3], $registro[4],$registro[5]);
+        $this->conexion->cerrar();
+        return $administrador;
+    }
     /**
      * @return mixed|string
      */

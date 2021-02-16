@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <a class="navbar-brand" href="index.php?pid=<?php echo base64_encode("presentacion/administrador/seccion.php") ?>">
+            <a class="navbar-brand" href="index.php?pid=<?php echo base64_encode("presentacion/usuario/seccion.php") ?>">
                 <img src="Resources\Images\iconos\home.png" alt="" width="30" height="24">
             </a>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -11,8 +11,8 @@
                         Crear
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="index.php?pid=<?php echo base64_encode("presentacion/administrador/crear/crear.php")?>">
-                                Usuarios</a></li>
+                        <li><a class="dropdown-item" href="index.php?pid=<?php echo base64_encode("presentacion/usuario/crear/incidente.php")?>">
+                                Incidentes</a></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
@@ -20,11 +20,7 @@
                         Consultar
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="index.php?pid=<?php echo base64_encode("presentacion/administrador/consultar/usuarios.php")?>">
-                                Usuarios</a></li>
-                        <li><a class="dropdown-item" href="index.php?pid=<?php echo base64_encode("presentacion/administrador/consultar/tecnicos.php")?>">
-                                Tecnicos</a></li>
-                        <li><a class="dropdown-item" href="index.php?pid=<?php echo base64_encode("presentacion/administrador/consultar/incidentes.php")?>">
+                        <li><a class="dropdown-item" href="index.php?pid=<?php echo base64_encode("presentacion/usuario/consultar/incidente.php")?>">
                                 Incidentes</a></li>
                     </ul>
                 </li>

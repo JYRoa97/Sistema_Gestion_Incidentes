@@ -33,10 +33,11 @@
                                     echo "<td>" .$usuario->getNombre() ."</td>";
                                     echo "<td>" .$usuario->getApellido() ."</td>";
                                     echo "<td>" .$usuario->getCorreo() ."</td>";
-                                    echo "<td>"."<span><a href='indexAjax.php?pid=".base64_encode('presentacion/administrador/consultar/modalUsuario.php')."&id=".$usuario->getId()."' data-toggle='modal' data-target='#modalUsuario' ><span class='fas fa-eye fa-2x' data-toggle='tooltip' class='tooltipLink' data-placement='left' data-original-title='Ver Detalles' ></span></a>".
-                                                "<span><a href='index.php?pid=".base64_encode('presentacion/administrador/consultar/usuarios.php')."&action=d&id=".$usuario->getId()."'  ><span  style='color: red' class='fas fa-user-times fa-2x' data-toggle='tooltip' class='tooltipLink' data-placement='left' data-original-title='Borrar usuario' ></span></a>".
-                                        "<span><a href='index.php?pid=".base64_encode('presentacion/administrador/editar/usuario.php')."&id=".$usuario->getId()."'  ><span   class='fas fa-user-edit fa-2x' data-toggle='tooltip' class='tooltipLink' data-placement='left' data-original-title='Borrar usuario' ></span></a>".
-
+                                    echo "<td>"."<span><a href='indexAjax.php?pid=".base64_encode('presentacion/administrador/consultar/modalUsuario.php')."&id=".$usuario->getId()."' data-toggle='modal' data-target='#modalUsuario' ><span class='fas fa-eye fa-2x' data-toggle='tooltip' data-placement='top' title='Ver detalle' ></span></a>".
+                                                "<span><a href='index.php?pid=".base64_encode('presentacion/administrador/consultar/usuarios.php')."&action=d&id=".$usuario->getId()."'  ><span  style='color: red' class='fas fa-user-times fa-2x' data-toggle='tooltip' data-placement='top' title='Eliminar usuario' ></span></a>".
+                                        "<span><a href='index.php?pid=".base64_encode('presentacion/administrador/editar/usuario.php')."&id=".$usuario->getId()."'  ><span   class='fas fa-user-edit fa-2x' data-toggle='tooltip' data-placement='top' title='Editar usuario' ></span></a>".
+                                        "<span><a href='index.php?pid=".base64_encode('presentacion/administrador/editar/password_usuario.php')."&id=".$usuario->getId()."'  ><span   class='fas fa-key fa-2x' style='color: #20c997;' data-toggle='tooltip' data-placement='top' title='Cambiar contraseña ' ></span></a>".
+                                        "<span><a href='index.php?pid=".base64_encode('presentacion/administrador/agregar/telefono.php')."&id=".$usuario->getId()."'  ><span   class='fas fa-phone fa-2x' style='color: chartreuse;' data-toggle='tooltip' data-placement='top' title='Agregar telefonos ' ></span></a>".
                                         "</td>";
                                     echo "</tr>";
                                 }

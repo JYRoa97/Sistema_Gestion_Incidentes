@@ -14,9 +14,28 @@ class usuario extends persona
         $this->foto = $foto;
         $this->persona($id,$nombre,$apellido,$identificacion,$correo,$clave);
     }
+    public function autenticar(){
+        $this->conexion->abrir();
+        $this->conexion->ejecutar($this->usuarioDAO->autenticar());
+        if ($this->conexion->numFilas()==1){
+            $this->conexion->cerrar();
+            return true;
+        }else{
+            $this->conexion->cerrar();
+            return  false;
+        }
+
+    }
+    public  function traerid(){
+        $this->conexion->abrir();
+        $this->conexion->ejecutar($this->usuarioDAO->traerid());
+        $resultado = $this->conexion->extraer();
+        return $resultado[0];
+    }
     public function correolibre(){
         $this->conexion->abrir();
         $this->conexion->ejecutar($this->usuarioDAO->correolibre());
+        $registro = $this->conexion->extraer();
         if ($this->conexion->numFilas()==0){
             $this->conexion->cerrar();
             return true;
@@ -25,6 +44,16 @@ class usuario extends persona
             return  false;
         }
 
+    }
+    public function cambiar_contraseña(){
+        $this->conexion->abrir();
+        $this->conexion->ejecutar($this->usuarioDAO->cambiar_contraseña());
+        $this->conexion->cerrar();
+    }
+    public function actualizar(){
+        $this->conexion->abrir();
+        $this->conexion->ejecutar($this->usuarioDAO->actualizar());
+        $this->conexion->cerrar();
     }
     public function identificacion_libre(){
         $this->conexion->abrir();

@@ -9,6 +9,16 @@ class usuarioDAO extends persona
         $this->foto = $foto;
         $this->persona($id,$nombre,$apellido,$identificacion,$correo,$clave);
     }
+    public function autenticar(){
+        return "SELECT * FROM 
+                usuario 
+                WHERE usuario.correo='".$this->correo."' and usuario.clave=MD5('".$this->clave."')";
+
+    }
+    public function traerid(){
+        return "SELECT usuario.idusuario FROM `usuario` WHERE usuario.correo='".$this->correo."' AND usuario.clave=MD5('".$this->clave."')";
+
+    }
     public function crear(){
         return "INSERT INTO 
                 `usuario`( `nombre`, `apellido`, `identificacion`, `correo`, `clave`, `foto`) 
@@ -18,6 +28,7 @@ class usuarioDAO extends persona
     public function correolibre(){
         return "select * from usuario where usuario.correo='".$this->correo ."';";
     }
+
     public function identificacion_libre(){
         return "select * from usuario where usuario.identificacion='".$this->identificacion ."';";
     }
@@ -29,6 +40,22 @@ class usuarioDAO extends persona
     }
     public function eliminar(){
         return"Delete from usuario where usuario.idusuario=".$this->id;
+    }
+    public function  actualizar(){
+        return "UPDATE `usuario` 
+                SET `idusuario`=".$this->id.",
+                    `nombre`='".$this->nombre."',
+                    `apellido`='".$this->apellido."',
+                    `identificacion`='".$this->identificacion."',
+                    `correo`='".$this->correo."',
+                    `foto`='".$this->foto."' WHERE`idusuario`=".$this->id;
+
+    }
+    public function cambiar_contraseña(){
+        return "UPDATE `usuario` 
+                SET `idusuario`=".$this->id.",
+                    `clave`=MD5('".$this->clave."')
+                     WHERE`idusuario`=".$this->id;
     }
     /**
      * @return mixed|string
