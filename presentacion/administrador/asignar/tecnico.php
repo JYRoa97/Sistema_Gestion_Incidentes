@@ -1,11 +1,5 @@
 <?php
 include "presentacion/administrador/menu.php";
-if(isset($_GET['action']) and isset($_GET['id'])){
-    if($_GET['action']=='d') {
-        $tecnico_d= new tecnico("",$_GET['id'],"","","","","");
-        $tecnico_d->eliminar();
-    }
-}
 $tecn= new tecnico("","","","","","","");
 $tecnicos= $tecn->consultar_todos();
 ?>
@@ -36,10 +30,7 @@ $tecnicos= $tecn->consultar_todos();
                             echo "<td>" .$tecnico->getIdentificacion() ."</td>";
                             echo "<td>" .$tecnico->getCorreo() ."</td>";
                             echo "<td>"."<span><a href='indexAjax.php?pid=".base64_encode('presentacion/administrador/consultar/modalTecnico.php')."&id=".$tecnico->getId()."' data-toggle='modal' data-target='#modalUsuario' ><span class='fas fa-eye fa-2x' data-toggle='tooltip' data-placement='top' title='Ver detalle' ></span></a>".
-                                "<span><a href='index.php?pid=".base64_encode('presentacion/administrador/consultar/tecnicos.php')."&action=d&id=".$tecnico->getId()."'  ><span  style='color: red' class='fas fa-user-times fa-2x' data-toggle='tooltip' data-placement='top' title='Eliminar usuario' ></span></a>".
-                                "<span><a href='index.php?pid=".base64_encode('presentacion/administrador/editar/tecnico.php')."&id=".$tecnico->getId()."'  ><span   class='fas fa-user-edit fa-2x' data-toggle='tooltip' data-placement='top' title='Editar usuario' ></span></a>".
-                                "<span><a href='index.php?pid=".base64_encode('presentacion/administrador/editar/password_tecnico.php')."&id=".$tecnico->getId()."'  ><span   class='fas fa-key fa-2x' style='color: #20c997;' data-toggle='tooltip' data-placement='top' title='Cambiar contraseña ' ></span></a>".
-                                "<span><a href='index.php?pid=".base64_encode('presentacion/administrador/agregar/telefono_t.php')."&id=".$tecnico->getId()."'  ><span   class='fas fa-phone fa-2x' style='color: chartreuse;' data-toggle='tooltip' data-placement='top' title='Agregar telefonos ' ></span></a>".
+                                        "<span><a href='index.php?pid=".base64_encode('presentacion/administrador/asignar/fecha.php')."&id_in=".$_GET['id']."&id_t=".$tecnico->getId()."'><span  style='color: green' class='fas fa-user-plus fa-2x' data-toggle='tooltip' data-placement='top' title='Asignar tecnico al incidente' ></span></a>".
                                 "</td>";
                             echo "</tr>";
                         }

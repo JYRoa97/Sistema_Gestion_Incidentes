@@ -30,6 +30,9 @@ class administradorDAO extends persona
         return "SELECT administrador.idusuario FROM `administrador` WHERE administrador.correo='".$this->correo."' AND administrador.clave=MD5('".$this->clave."')";
 
     }
+    public function consultar(){
+        return "Select * from administrador where administrador.idusuario=".$this->id;
+    }
 
     public function identificacion_libre(){
         return "select * from administrador where administrador.identificacion='".$this->identificacion ."';";

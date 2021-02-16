@@ -10,10 +10,6 @@ if(isset($_POST['registro'])){
     $rol=$_POST['rol'];
     $clave_repetir = $_POST['clave_repetir'];
     $error= array();
-    function foto($foto){
-        return nombre;
-    }
-
     switch ($rol){
         case '1':
             $usuario= new usuario("","",$nombre,$apellido,$identificacion,$correo,$clave);
@@ -126,9 +122,6 @@ if(isset($_POST['registro'])){
             break;
     }
 }
-
-
-
 
 ?>
 
