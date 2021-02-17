@@ -2,7 +2,7 @@
     <div class="container-fluid">
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <a class="navbar-brand" href="index.php?pid=<?php echo base64_encode("presentacion/tecnico/seccion.php") ?>">
-                <img src="Resources\Images\iconos\home.png" alt="" width="30" height="24">
+                <img src="Resources\Images\iconos\home_2.png" alt="" width="30" height="24">
             </a>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
@@ -15,15 +15,10 @@
                                 Visitas</a></li>
                     </ul>
                 </li>
-                <li>
-                    <a href="index.php">
-                        SALIR
-                    </a>
-
-                </li>
 
             </ul>
 
         </div>
+        <a class="btn btn-outline-success" href="index.php" role="button">Salir</a>
     </div>
 </nav>

@@ -28,12 +28,12 @@ if(isset($_POST['registro'])) {
             <div>
                 <div class="input-group">
                     <input type="password" name="clave" id="textInput" value="">
-                    <label class="label" for="nombre">Contraseña:</label>
+                    <label class="label" for="nombre">Nueva Contraseña:</label>
                 </div>
                 <div class="input-group">
                     <input type="password" name="clave_repetir" required id="textInput1" value="">
                     <label class="label" for="nombre">
-                        Repetir Contraseña:
+                        Repetir Nueva Contraseña:
                     </label>
 
                 </div>

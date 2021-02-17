@@ -19,8 +19,36 @@
     <select />
   </component>
   <component name="ChangeListManager">
-
->>>>>>> master
+    <list default="true" id="0a583eea-c4b7-41bb-a51b-6567155921e5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Images/1612997879034.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Images/1612997946864.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Images/1613000371414.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Images/1613000420388.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Images/1613004254865.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Images/1613004380142.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Images/1613004434776.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Images/1613172000453.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Images/1613487582734.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Images/1613492144378.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/estilos.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/estilos.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentacion/administrador/consultar/modalTecnico.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/administrador/consultar/modalTecnico.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentacion/administrador/consultar/modalUsuario.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/administrador/consultar/modalUsuario.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentacion/administrador/consultar/tecnicos.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/administrador/consultar/tecnicos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentacion/administrador/consultar/usuarios.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/administrador/consultar/usuarios.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentacion/administrador/crear/crear.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/administrador/crear/crear.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentacion/administrador/editar/password_tecnico.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/administrador/editar/password_tecnico.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentacion/administrador/editar/password_usuario.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/administrador/editar/password_usuario.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentacion/administrador/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/administrador/menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentacion/administrador/seccion.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/administrador/seccion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentacion/inicio.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/inicio.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentacion/tecnico/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/tecnico/menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentacion/tecnico/seccion.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/tecnico/seccion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentacion/usuario/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/usuario/menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentacion/usuario/seccion.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/usuario/seccion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prueba_archivo_nuevo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/prueba_archivo_nuevo.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,28 +83,29 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\teleco\Resources\Images\iconos" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\teleco\Resources" />
       <recent name="C:\xampp\htdocs\teleco\presentacion\administrador\consultar" />
       <recent name="C:\xampp\htdocs\teleco" />
       <recent name="C:\xampp\htdocs\teleco\presentacion\administrador" />
       <recent name="C:\xampp\htdocs\teleco\css" />
-      <recent name="C:\xampp\htdocs\teleco\js" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\teleco\Resources\Images\iconos" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1d057a5e-8876-40d0-a746-0bfe2cb5d035" name="Default Changelist" comment="" />
+      <changelist id="0a583eea-c4b7-41bb-a51b-6567155921e5" name="Default Changelist" comment="" />
       <created>1612468328396</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612468328396</updated>
       <workItem from="1612468332625" duration="8602000" />
-
->>>>>>> master
+      <workItem from="1613575833323" duration="18000" />
+      <workItem from="1613576597672" duration="4961000" />
+      <workItem from="1613582594415" duration="8090000" />
     </task>
     <servers />
   </component>
@@ -94,27 +123,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="476" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1613183006375">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="476" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1613183006375" />
-    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1612996351470">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1612996351470" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1612941168400">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1612941168400" />
-    <state x="489" y="87" key="NewPhpClassDialog" timestamp="1613173852175">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="489" y="87" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1613173852175" />
-    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1613489369246">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1613489369246" />
   </component>
 </project>

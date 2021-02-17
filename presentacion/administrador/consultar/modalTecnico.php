@@ -8,7 +8,7 @@ $telefonos=$telefonos->consultar_t_t()
 ?>
 
 <div class="modal-header">
-    <h5 class="modal-title text-center" id="exampleModalLabel">Información de Usuario</h5>
+    <h5 class="modal-title text-center" id="exampleModalLabel"> Información de Usuario</h5>
     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
         <span aria-hidden="true">&times;</span>
     </button>

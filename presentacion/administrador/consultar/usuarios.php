@@ -13,7 +13,7 @@
     <div class="row">
         <div class="col-12">
             <div class="card" style="margin-top: 20px">
-                <div class="card-header bg-primary text-white">Consultar Usuarios</div>
+                <div class="card-header bg-primary text-white"><h4>Consultar Usuarios</h4> </div>
                 <div class="card-body">
                     <table class="table table-striped table-hover" >
                         <thead>

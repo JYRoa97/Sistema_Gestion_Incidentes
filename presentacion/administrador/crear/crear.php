@@ -174,15 +174,17 @@ if(isset($_POST['registro'])){
 
                 </div>
 
-                <div class = "input-group text">
-                    <label>Roll:</label>
-                    <select name="rol" id="sources" class="custom-select sources" placeholder="Source Type">
-                        <option selected>Seleccione una opción</option>
-                        <option value="1"><h6>Usuario</h6> </option>
-                        <option value="2">Técnico</option>
-                        <option value="3">Administrador</option>
-                    </select>
+                <div class="input-group">
+                    <div class="input-field col s12">
+                        <label>ROLL: </label>
+                        <select name="rol" id="sources" class="form-select">
+                            <option value="" disabled selected>Seleccionar</option>
+                            <option value="1">Usuario</option>
+                            <option value="2">Administrador</option>
+                            <option value="3">Técnico</option>
+                        </select>
 
+                    </div>
                 </div>
                 <div class="input-group text">
                     <label>Seleccione una foto</label>

@@ -13,7 +13,7 @@ $tecnicos= $tecn->consultar_todos();
     <div class="row">
         <div class="col-12">
             <div class="card" style="margin-top: 20px">
-                <div class="card-header bg-primary text-white">Consultar Técnicos</div>
+                <div class="card-header bg-primary text-white"><h4>Consultar Técnicos</h4> </div>
                 <div class="card-body">
                     <table class="table table-striped table-hover" >
                         <thead>

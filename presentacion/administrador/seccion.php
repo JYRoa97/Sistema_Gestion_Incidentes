@@ -6,11 +6,12 @@ $administrador= $administrador->consultar();
 
 <div class="container" style="margin-top: 20px">
     <div class="row">
-        <div class="col-12">
+        <div class="col"></div>
+        <div class="col-5">
             <div class="card">
                     <?php if(isset($_GET['tipo']) and $_GET['tipo'] == 1){?>
                     <div class="alert alert-success" role="alert">
-                        Se registro con exito al usuario
+                        Se registro con exitó al usuario
                     </div>
                     <?php }?>
                     <?php if(isset($_GET['tipo']) and $_GET['tipo'] == 2){?>
@@ -20,16 +21,30 @@ $administrador= $administrador->consultar();
                 <?php }?>
                 <?php if(isset($_GET['tipo']) and $_GET['tipo'] == 3){?>
                     <div class="alert alert-success" role="alert">
-                        Se registro telefono exitosamente
+                        Se registro numero de teléfono exitosamente
                     </div>
                 <?php }?>
-                <div class="card-header bg-primary text-white">Bienvenido Administrador</div>
+                <div class="card-header bg-primary text-white"><h4>Bienvenido Administrador</h4></div>
                 <div class="card-body">
-                    <p>Usuario: <?php echo $administrador -> getNombre() . " " . $administrador -> getApellido() ?></p>
-                    <p>Correo: <?php echo $administrador -> getCorreo(); ?></p>
-                    <p>Hoy es: <?php echo date("d-M-Y"); ?></p>
+                    <div class="card mb-1 bg-dark" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="Resources/Images/<?php echo $administrador->getFoto()?>" alt="..." width="150">
+                            </div>
+                            <div class="col-md-5">
+                                <div class="card-body ">
+                                    <h6 class="card-title ">Datos:</h6>
+                                    <p class="card-text" style="color: white"><p style="color: white"><?php echo $administrador -> getNombre() . " " . $administrador -> getApellido() ?></p>
+                                    <p style="color: white"><?php echo $administrador -> getCorreo(); ?></p>
+                                    <p style="color: white">Hoy es: <?php echo date("d-M-Y"); ?></p></p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+        <div class="col"></div>
     </div>
 </div>

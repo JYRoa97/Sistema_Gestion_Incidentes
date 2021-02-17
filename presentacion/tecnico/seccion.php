@@ -20,10 +20,10 @@ $tecnico= $tecnico->consultar();
                 <?php }?>
                 <?php if(isset($_GET['tipo']) and $_GET['tipo'] == 3){?>
                     <div class="alert alert-success" role="alert">
-                        Se registro telefono exitosamente
+                        Se registro teléfono exitosamente
                     </div>
                 <?php }?>
-                <div class="card-header bg-primary text-white">Bienvenido Tecnico</div>
+                <div class="card-header bg-primary text-white"><h4>Bienvenido Técnico</h4> </div>
                 <div class="card-body">
                     <p>Usuario: <?php echo $tecnico -> getNombre() . " " . $tecnico -> getApellido() ?></p>
                     <p>Correo: <?php echo $tecnico -> getCorreo(); ?></p>
