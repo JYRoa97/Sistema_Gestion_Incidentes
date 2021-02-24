@@ -19,20 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a583eea-c4b7-41bb-a51b-6567155921e5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/estilos.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/estilos.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentacion/administrador/consultar/incidentes.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/administrador/consultar/incidentes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentacion/administrador/consultar/modalTecnico.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/administrador/consultar/modalTecnico.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentacion/administrador/consultar/modalUsuario.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/administrador/consultar/modalUsuario.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentacion/administrador/consultar/modalvisita.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/administrador/consultar/modalvisita.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentacion/administrador/crear/crear.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/administrador/crear/crear.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentacion/administrador/seccion.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/administrador/seccion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentacion/inicio.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/inicio.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentacion/tecnico/consultar/visitas.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/tecnico/consultar/visitas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentacion/tecnico/seccion.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/tecnico/seccion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentacion/usuario/seccion.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/usuario/seccion.php" afterDir="false" />
-    </list>
+    <list default="true" id="0a583eea-c4b7-41bb-a51b-6567155921e5" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
