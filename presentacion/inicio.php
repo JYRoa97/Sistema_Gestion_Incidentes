@@ -1,7 +1,7 @@
 <?php
 
 ?>
-
+<title>Sistema de Gestión de Incidentes</title>
 <div class="wrapper fadeInDown">
     <div id="formContent">
         <!-- Tabs Titles -->

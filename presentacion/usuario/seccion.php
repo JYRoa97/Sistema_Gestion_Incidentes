@@ -3,7 +3,7 @@ include "menu.php";
 $usuario= new usuario("",$_SESSION['id'],"","","","","");
 $usuario= $usuario->consultar();
 ?>
-
+<title>Usuario: SGI</title>
 <div class="container" style="margin-top: 20px">
     <div class="row">
         <div class="col"></div>
@@ -19,7 +19,7 @@ $usuario= $usuario->consultar();
                     <div class="card mb-2 bg-dark" style="max-width: 540px;">
                         <div class="row g-0">
                             <div class="col-md-3">
-                                <img src="Resources/Images/<?php echo $usuario->getFoto()?>" alt="..." width="150">
+                                <img class="center" src="Resources/Images/<?php echo $usuario->getFoto()?>" alt="..." width="150" height="150">
                             </div>
                             <div class="col-md-5">
                                 <div class="card-body ">

@@ -13,7 +13,7 @@ $visitas = $visitas->consultar_v_t();
     <div class="row">
         <div class="col-12">
             <div class="card" style="margin-top: 20px">
-                <div class="card-header bg-primary text-white">Consultar mis visitas</div>
+                <div class="card-header bg-primary text-white"><h4>Consultar Visitas</h4> </div>
                 <div class="card-body">
                     <table class="table table-striped table-hover" >
                         <thead>
@@ -21,8 +21,8 @@ $visitas = $visitas->consultar_v_t();
                             <th scope="col">Id</th>
                             <th scope="col">Estado</th>
                             <th scope="col">Fecha</th>
-                            <th scope="col">Direccion </th>
-                            <th scope="col">Detalle de direccion </th>
+                            <th scope="col">Dirección </th>
+                            <th scope="col">Detalle de dirección </th>
                             <th scope="col">Servicios </th>
                         </tr>
                         </thead>
@@ -42,7 +42,7 @@ $visitas = $visitas->consultar_v_t();
                             }else if($incidente->getEstado()==2){
                                 echo "<td>" .
 
-                                    "<span  style='color: green' class='fas fa-calendar-check fa-2x' data-toggle='tooltip' data-placement='top' title='Se asigno visita' ></span>"
+                                    "<span  style='color: orange' class='fas fa-calendar-check fa-2x' data-toggle='tooltip' data-placement='top' title='Se asigno visita' ></span>"
 
                                     ."</td>";
 

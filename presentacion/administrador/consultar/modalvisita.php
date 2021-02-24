@@ -14,8 +14,8 @@ $telefonot= $telefonot->consultar_t_t();
 
 ?>
 
-<div class="modal-header">
-    <h5 class="modal-title text-center" id="exampleModalLabel">Detalle incidente y visita</h5>
+<div class="modal-header bg-primary text-white">
+    <h5 class="modal-title text-center " id="exampleModalLabel">Detalle incidente y visita</h5>
     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
         <span aria-hidden="true">&times;</span>
     </button>
@@ -24,7 +24,7 @@ $telefonot= $telefonot->consultar_t_t();
     <div class="card-body">
         <div class="row">
             <div class="col-sm-3">
-                <h6 class="mb-0">Descripcion de incidente</h6>
+                <h6 class="mb-0">Descripción de incidente</h6>
             </div>
             <div class="col-sm-9 text-secondary">
                 <?php
@@ -35,7 +35,7 @@ $telefonot= $telefonot->consultar_t_t();
         <hr>
         <div class="row">
             <div class="col-sm-3">
-                <h6 class="mb-0">Direccion</h6>
+                <h6 class="mb-0">Dirección</h6>
             </div>
             <div class="col-sm-9 text-secondary">
                 <?php
@@ -47,7 +47,7 @@ $telefonot= $telefonot->consultar_t_t();
         <hr>
         <div class="row">
             <div class="col-sm-3">
-                <h6 class="mb-0">Detalle de direccion</h6>
+                <h6 class="mb-0">Detalle de dirección</h6>
             </div>
             <div class="col-sm-9 text-secondary">
                 <?php
@@ -72,7 +72,7 @@ $telefonot= $telefonot->consultar_t_t();
         <div class="phone">
             <div class="row">
                 <div class="col-sm-4">
-                    <h6 class="mb-0">Telefonos usuarios</h6>
+                    <h6 class="mb-0">Teléfonos usuarios</h6>
                 </div>
                 <div class="col-sm-8">
                     <?php
@@ -100,7 +100,7 @@ $telefonot= $telefonot->consultar_t_t();
         <div class="card-body">
             <div class="d-flex flex-column align-items-center text-center">
                 <div class="col-sm-3">
-                    <h6 class="mb-0">FOTO TECNICO</h6>
+                    <h6 class="mb-0">FOTO TÉCNICO</h6>
                 </div>
                 <img src="Resources/Images/<?php echo $tecnico->getFoto()?>" alt=""
                      width="150" height="150">
@@ -112,7 +112,7 @@ $telefonot= $telefonot->consultar_t_t();
         <hr>
         <div class="row">
             <div class="col-sm-3">
-                <h6 class="mb-0">Nombre de tecnico</h6>
+                <h6 class="mb-0">Nombre de técnico</h6>
             </div>
             <div class="col-sm-9 text-secondary">
                 <?php
@@ -125,7 +125,7 @@ $telefonot= $telefonot->consultar_t_t();
         <div class="phone">
             <div class="row">
                 <div class="col-sm-4">
-                    <h6 class="mb-0">Telefonos tecnico</h6>
+                    <h6 class="mb-0">Teléfonos técnico</h6>
                 </div>
                 <div class="col-sm-8">
                     <?php

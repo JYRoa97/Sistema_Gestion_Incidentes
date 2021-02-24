@@ -7,8 +7,8 @@ $telefonos=$telefonos->consultar();
 
 ?>
 
-<div class="modal-header">
-    <h5 class="modal-title text-center" id="exampleModalLabel">Información de Usuario</h5>
+<div class="modal-header bg-primary text-white">
+    <h5 class="modal-title text-center" style="text-align: center" id="exampleModalLabel">Información de Usuario</h5>
     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
         <span aria-hidden="true">&times;</span>
     </button>
@@ -49,10 +49,10 @@ $telefonos=$telefonos->consultar();
         <hr>
         <div class="phone">
             <div class="row">
-                <div class="col-sm-4">
-                    <h6 class="mb-0">Telefonos:</h6>
+                <div class="col-sm-3">
+                    <h6 class="mb-0">Teléfonos:</h6>
                 </div>
-                <div class="col-sm-8">
+                <div class="col-sm-9">
                     <?php
                     foreach ($telefonos as $telefono){
                         echo $telefono->getTelefono()."<br>";
@@ -65,10 +65,10 @@ $telefonos=$telefonos->consultar();
         <hr>
         <div class="phone">
             <div class="row">
-                <div class="col-sm-4">
-                    <h6 class="mb-0">Identificacion:</h6>
+                <div class="col-sm-3">
+                    <h6 class="mb-0">Identificación:</h6>
                 </div>
-                <div class="col-sm-8">
+                <div class="col-sm-9">
                     <?php
                         echo $usuario->getIdentificacion();
                     ?>
@@ -76,17 +76,13 @@ $telefonos=$telefonos->consultar();
                 </div>
             </div>
         </div>
-        <hr>
-        <div class="row">
-            <div class="col-sm-6"><h6 class="mb-0"></h6>
-            </div>
-            <div class="col-sm-6 text-secondary"></div>
-        </div>
+
+
     </div>
 </div>
 </div>
 <div class="modal-footer">
-    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+    <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
 </div>
 </div>
 

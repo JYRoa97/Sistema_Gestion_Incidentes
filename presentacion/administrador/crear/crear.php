@@ -48,7 +48,7 @@ if(isset($_POST['registro'])){
             }
 
             break;
-        case '2':
+        case '3':
             $tecnico= new tecnico("","",$nombre,$apellido,$identificacion,$correo,$clave);
             if ($tecnico->correolibre()){
                 if($clave == $clave_repetir){
@@ -75,6 +75,7 @@ if(isset($_POST['registro'])){
 
                     }else{
                         $error[]="Numero de identificaion ya registrado";
+                        echo $tecnico->getIdentificacion();
                     }
                 }else{
                     $error[]="Las claves no coinciden";
@@ -85,7 +86,7 @@ if(isset($_POST['registro'])){
             }
 
         break;
-        case '3':
+        case '2':
             $administrador= new administrador("","",$nombre,$apellido,$identificacion,$correo,$clave);
             if($administrador->identificacion_libre()) {
                 if($clave == $clave_repetir){
@@ -111,6 +112,7 @@ if(isset($_POST['registro'])){
                         }
                     }else{
                         $error[]="Numero de identificaion ya registrado";
+
                     }
                 }else{
                     $error[]="Las claves no coinciden";
@@ -190,7 +192,7 @@ if(isset($_POST['registro'])){
                     <label>Seleccione una foto</label>
                     <input type="file" name="foto" class="form-control" placeholder="Foto" required="required">
                 </div>
-                <button type="submit" class="btn btn-primary" name="registro"> Registrar </button>
+                <button type="submit" class="btn btn-primary" name="registro" value="Enviar"> Registrar </button>
             </div>
         </form>
     </div>

@@ -3,7 +3,7 @@ include "menu.php";
 $administrador= new administrador("",$_SESSION['id'],"","","","","");
 $administrador= $administrador->consultar();
 ?>
-
+<title>Administrador: SGI</title>
 <div class="container" style="margin-top: 20px">
     <div class="row">
         <div class="col"></div>
@@ -11,7 +11,7 @@ $administrador= $administrador->consultar();
             <div class="card">
                     <?php if(isset($_GET['tipo']) and $_GET['tipo'] == 1){?>
                     <div class="alert alert-success" role="alert">
-                        Se registro con exitó al usuario
+                        Se registro exitosamente
                     </div>
                     <?php }?>
                     <?php if(isset($_GET['tipo']) and $_GET['tipo'] == 2){?>
@@ -29,7 +29,7 @@ $administrador= $administrador->consultar();
                     <div class="card mb-1 bg-dark" style="max-width: 540px;">
                         <div class="row g-0">
                             <div class="col-md-4">
-                                <img src="Resources/Images/<?php echo $administrador->getFoto()?>" alt="..." width="150">
+                                <img class="center" src="Resources/Images/<?php echo $administrador->getFoto()?>" alt="..." height="150" width="150">
                             </div>
                             <div class="col-md-5">
                                 <div class="card-body ">
