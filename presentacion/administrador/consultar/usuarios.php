@@ -1,5 +1,6 @@
 <?php
     include "presentacion/administrador/menu.php";
+    include "Lib/HashTable.php";
     if(isset($_GET['action']) and isset($_GET['id'])){
         if($_GET['action']=='d') {
             $usuiaro_d= new usuario("",$_GET['id'],"","","","","");
@@ -8,6 +9,19 @@
     }
     $usua= new usuario("","","","","","","");
     $usuarios= $usua->consultar_todos();
+    $tablaHash = new HashTable();
+    $tiempoinicial = microtime(True);
+    foreach ($usuarios as $user){
+        //$tiempoinicial1 = microtime(True);
+        $tablaHash->insert($user->getId(),$user);
+        //$tiempoFinal1 = microtime(true);
+    }
+    $tiempoFinal = microtime(true);
+    //$tiempoinicial1 = microtime(True);
+    //$nombre = $tablaHash->find('965')->getCorreo();
+    //$tiempoFinal1 = microtime(true);
+
+
 ?>
 <div class="container">
     <div class="row">
@@ -27,6 +41,12 @@
                         </thead>
                         <tbody>
                             <?php
+                            //echo $tiempoFinal-$tiempoinicial;
+                            //echo $tiempoFinal1-$tiempoinicial1;
+
+                            //echo $tiempoFinal1-$tiempoinicial1;
+                            //echo $nombre;
+                            //echo $tablaHash->hashfunc('5');
                             foreach ($usuarios as $usuario){
                                     echo "<tr>";
                                     echo "<td>" .$usuario->getId() ."</td>";

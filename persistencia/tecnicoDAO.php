@@ -13,7 +13,6 @@ class tecnicoDAO extends persona
         return "SELECT * FROM 
                 tecnico 
                 WHERE tecnico.correo='".$this->correo."' and tecnico.clave=MD5('".$this->clave."')";
-
     }
     public function traerid(){
         return "SELECT tecnico.idusuario FROM `tecnico` WHERE tecnico.correo='".$this->correo."' AND tecnico.clave=MD5('".$this->clave."')";

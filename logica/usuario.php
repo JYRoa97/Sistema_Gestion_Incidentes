@@ -7,6 +7,7 @@ class usuario extends persona
     private $usuarioDAO;
     private $conexion;
 
+
     function usuario($foto="", $id="", $nombre="", $apellido="", $identificacion="", $correo="", $clave="")
     {
         $this->usuarioDAO= new usuarioDAO($foto, $id, $nombre, $apellido, $identificacion, $correo, $clave);
@@ -71,6 +72,11 @@ class usuario extends persona
         $this->conexion->abrir();
         $this->conexion->ejecutar($this->usuarioDAO->crear());
         $this->conexion->cerrar();
+    }
+
+
+    public function find(){
+
     }
 
     public  function consultar_todos(){

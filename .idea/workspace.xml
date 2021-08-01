@@ -19,7 +19,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a583eea-c4b7-41bb-a51b-6567155921e5" name="Default Changelist" comment="" />
+    <list default="true" id="0a583eea-c4b7-41bb-a51b-6567155921e5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Lib/HashTable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Images/1614192983381.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Images/1614193470543.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Images/1614193502816.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Images/1614193533773.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Images/1614822144505.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logica/usuario.php" beforeDir="false" afterPath="$PROJECT_DIR$/logica/usuario.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistencia/tecnicoDAO.php" beforeDir="false" afterPath="$PROJECT_DIR$/persistencia/tecnicoDAO.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentacion/administrador/consultar/incidentes.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/administrador/consultar/incidentes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentacion/administrador/consultar/usuarios.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/administrador/consultar/usuarios.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentacion/usuario/consultar/incidente.php" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion/usuario/consultar/incidente.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,6 +94,12 @@
       <workItem from="1613609621962" duration="595000" />
       <workItem from="1614123404943" duration="4748000" />
       <workItem from="1614180160746" duration="1109000" />
+      <workItem from="1614816163954" duration="234000" />
+      <workItem from="1618669278706" duration="268000" />
+      <workItem from="1618671411899" duration="3467000" />
+      <workItem from="1626277661551" duration="6065000" />
+      <workItem from="1626389177719" duration="3275000" />
+      <workItem from="1627833892346" duration="19494000" />
     </task>
     <servers />
   </component>

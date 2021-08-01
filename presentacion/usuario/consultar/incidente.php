@@ -25,7 +25,7 @@ $incidentes = $inci->consultar_por_usuario();
                         <?php
                         foreach ($incidentes as $incidente){
                             echo "<tr>";
-                            echo "<td>" .$incidente->getId() ."</td>";
+                            echo "<td>1000000000000000" .$incidente->getId() ."</td>";
                             echo "<td>" .$incidente->getDescripcion() ."</td>";
                             if($incidente->getEstado()==1){
                                 echo "<td>" .

@@ -12,7 +12,7 @@ $incidentes = $inci->consultar_todas();
                     <table class="table table-striped table-hover" >
                         <thead>
                         <tr>
-                            <th scope="col">Id</th>
+                            <th scope="col">Radicado</th>
                             <th scope="col">Descripcion</th>
                             <th scope="col">Estado</th>
                             <th scope="col">Fecha</th>
@@ -25,7 +25,7 @@ $incidentes = $inci->consultar_todas();
                         <?php
                         foreach ($incidentes as $incidente){
                             echo "<tr>";
-                            echo "<td>" .$incidente->getId() ."</td>";
+                            echo "<td>1000000000000000" .$incidente->getId() ."</td>";
                             echo "<td>" .$incidente->getDescripcion() ."</td>";
                             if($incidente->getEstado()==1){
                                 echo "<td>" .
